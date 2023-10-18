@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 
-const blogSchema = mongoos.Schema({
+const blogSchema = mongoose.Schema({
     title : {type :  mongoose.SchemaType.String, require : true},
     description : {type :  mongoose.SchemaTypes.String},
     title : {type :  mongoose.SchemaTypes.String, require : true},
